@@ -1,5 +1,8 @@
+alembic
 fastapi
-uvicorn
-sqlalchemy
 mysql-connector-python
+prometheus-client
+pytest
 python-dotenv
+sqlalchemy
+uvicorn
