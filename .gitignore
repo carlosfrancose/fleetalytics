@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Conda
+.env
+.conda/
+*.conda
+*.env
+*.env.*
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# Environment variables and secrets
+*.env
+!.env.example
+.env.local
+.env.development
+.env.test
+.env.production
+.secrets
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+scripts/*.txt
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+.docker/
+
+# Terraform
+infrastructure/terraform/.terraform/
+infrastructure/terraform/.terraform.lock.hcl
+infrastructure/terraform/terraform.tfstate
+infrastructure/terraform/terraform.tfstate.backup
+infrastructure/terraform/.terraform.tfstate.lock.info
+infrastructure/terraform/terraform.tfvars
+!infrastructure/terraform/terraform.tfvars.example
+infrastructure/terraform/crash.log
+infrastructure/terraform/override.tf
+infrastructure/terraform/override.tf.json
+infrastructure/terraform/*_override.tf
+infrastructure/terraform/*_override.tf.json
+
+# Kubernetes
+infrastructure/kubernetes/secrets.yaml
+infrastructure/kubernetes/*-secret.yaml
+
+# Google Cloud
+*.json
+!infrastructure/terraform/terraform.json
+!infrastructure/grafana/dashboards/*.json
+
+# Data files
+data/
+!package.json
