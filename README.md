@@ -2,7 +2,7 @@
 **Cloud-native, containerized CRUD API for managing delivery data.
 Built to demonstrate scalable, infrastructure engineering in a real-world logistics scenario.
 
-The primary dataset this project is built on comes from the [2021 Amazon Last Mile Routing Research Challenge Dataset] (https://aws.amazon.com/marketplace/pp/prodview-rqkdusd3nz3mw#usage)
+The primary dataset this project is built on comes from the [2021 Amazon Last Mile Routing Research Challenge Dataset](https://aws.amazon.com/marketplace/pp/prodview-rqkdusd3nz3mw#usage)
 
 ---
 
