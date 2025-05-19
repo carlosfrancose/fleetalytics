@@ -1,4 +1,4 @@
-FROM python:3.11-slim                # Start with Python image
+FROM python:3.13.1-slim                # Start with Python image
 
 WORKDIR /app                         # Set working directory inside container
 
